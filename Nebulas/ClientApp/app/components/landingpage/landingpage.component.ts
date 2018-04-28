@@ -5,6 +5,6 @@
     templateUrl: './landingpage.component.html'
 })
 
-export class LandingConponemt {
+export class LandingComponemt {
 
 }

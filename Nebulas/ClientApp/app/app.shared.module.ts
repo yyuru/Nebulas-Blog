@@ -9,7 +9,7 @@ import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { HomeComponent } from './components/home/home.component';
 import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
-import { LandingConponemt } from './components/landingpage/landingpage.component';
+import { LandingComponemt } from './components/landingpage/landingpage.component';
 
 @NgModule({
     declarations: [
@@ -18,7 +18,7 @@ import { LandingConponemt } from './components/landingpage/landingpage.component
         CounterComponent,
         FetchDataComponent,
         HomeComponent,
-        LandingConponemt
+        LandingComponemt
     ],
     imports: [
         CommonModule,
@@ -29,7 +29,7 @@ import { LandingConponemt } from './components/landingpage/landingpage.component
             { path: 'home', component: HomeComponent },
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
-            { path: 'landing', component: LandingConponemt },
+            { path: 'landing', component: LandingComponemt },
             { path: '**', redirectTo: 'home' }
         ])
     ]
