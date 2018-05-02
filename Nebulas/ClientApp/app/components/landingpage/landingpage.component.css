@@ -1,2 +1,42 @@
-﻿body {
+﻿/*组件根节点*/
+:host {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image:url('~/assets/imgs/bg.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100% 100%;
 }
+.landingContain {
+    position:absolute;
+    top:15%;
+    right:20%;
+    left:20%;
+    bottom:15%;
+    border:1px solid black;
+}
+.landingImg {
+    position:absolute;
+    left:0;
+    top:0;
+    width:40%;
+    height:100%;
+    background-size:auto 100%;
+    background-image:url('~/assets/imgs/landingimg.gif');
+    background-position-x:50%;
+    background-repeat:no-repeat;
+}
+.landingContent {
+    position:absolute;
+    top:0;
+    right:0;
+    width:60%;
+    height:100%;
+    background-color:#f5f5f5;
+}
+    .landingContent .logo {
+        
+    }

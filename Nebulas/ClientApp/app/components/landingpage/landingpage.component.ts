@@ -2,7 +2,8 @@
 
 @Component({
     selector: 'landingpage',
-    templateUrl: './landingpage.component.html'
+    templateUrl: './landingpage.component.html',
+    styleUrls:['./landingpage.component.css']
 })
 
 export class LandingComponemt {

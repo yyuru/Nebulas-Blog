@@ -25,12 +25,12 @@ import { LandingComponemt } from './components/landingpage/landingpage.component
         HttpModule,
         FormsModule,
         RouterModule.forRoot([
-            { path: '', redirectTo: 'home', pathMatch: 'full' },
+            { path: '', redirectTo: 'landing', pathMatch: 'full' },
             { path: 'home', component: HomeComponent },
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
             { path: 'landing', component: LandingComponemt },
-            { path: '**', redirectTo: 'home' }
+            { path: '**', redirectTo: 'landing' }
         ])
     ]
 })
