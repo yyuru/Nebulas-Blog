@@ -38,10 +38,18 @@
     background-image: linear-gradient(325deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
 }
     .landingContent .header {
-        width:100%;
-        height:20%;
-    }
-    .landingContent .main-content {
         width: 100%;
-        height: 80%;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        font-family: brush;
+        font-size:30px;
+        letter-spacing:2px;
     }
+    .landingContent .header  span{
+        
+    }
+        .landingContent .main-content {
+            width: 100%;
+            height: calc(100% - 100px);
+        }
